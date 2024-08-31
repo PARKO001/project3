@@ -32,10 +32,12 @@ body {
 
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     width: 90%;
     margin-top: 200px;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -44,6 +46,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 16px;
     border-radius: 8px;
+    min-width: 200px;
     box-sizing: border-box;
     transition: transform 0.3s ease-in-out;
 }
